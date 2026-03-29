@@ -1,0 +1,21 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+select, input {
+  outline: none;
+}
+
+select:focus, input:focus {
+  border-color: #1d4ed8 !important;
+}

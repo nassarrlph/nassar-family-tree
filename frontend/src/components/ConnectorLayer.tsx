@@ -1,14 +1,14 @@
 import React from "react";
 import { LayoutNode } from "../types";
-import { BOX_WIDTH, BOX_HEIGHT } from "../lib/layoutTree";
+import { BOX_WIDTH, BOX_HEIGHT, H_GAP } from "../lib/layoutTree";
 
 interface Props {
   nodes: Map<string, LayoutNode>;
 }
 
 /**
- * Draws right-angle connectors from each parent box to its children.
- * Parent bottom-center → horizontal rail → child top-center
+ * Draws right-angle connectors for a horizontal tree.
+ * Parent right-center → horizontal run → vertical rail → child left-center
  */
 export const ConnectorLayer: React.FC<Props> = ({ nodes }) => {
   const lines: React.ReactNode[] = [];
@@ -16,55 +16,55 @@ export const ConnectorLayer: React.FC<Props> = ({ nodes }) => {
   nodes.forEach((parent) => {
     if (parent.children.length === 0) return;
 
-    const px = parent.x + BOX_WIDTH / 2;
-    const py = parent.y + BOX_HEIGHT;
+    const childNodes = parent.children
+      .map((c) => nodes.get(c.id))
+      .filter(Boolean) as LayoutNode[];
 
-    // Midpoint Y between parent bottom and first child top
-    const firstChild = nodes.get(parent.children[0].id);
-    if (!firstChild) return;
-    const midY = py + (firstChild.y - py) / 2;
+    if (childNodes.length === 0) return;
 
-    // Vertical drop from parent
+    // Parent exit point: right-center
+    const px = parent.x + BOX_WIDTH;
+    const py = parent.y + BOX_HEIGHT / 2;
+
+    // Midpoint X between parent right and first child left
+    const midX = px + H_GAP / 2;
+
+    // Horizontal run from parent to mid column
     lines.push(
       <line
-        key={`vdrop-${parent.id}`}
+        key={`hrun-${parent.id}`}
         x1={px} y1={py}
-        x2={px} y2={midY}
+        x2={midX} y2={py}
         stroke={parent.branchColor}
         strokeWidth={1.5}
       />
     );
 
-    // Horizontal rail across all children
-    const childNodes = parent.children
-      .map((c) => nodes.get(c.id))
-      .filter(Boolean) as LayoutNode[];
-
+    // Vertical rail spanning all children at midX
     if (childNodes.length > 1) {
-      const leftX = childNodes[0].x + BOX_WIDTH / 2;
-      const rightX = childNodes[childNodes.length - 1].x + BOX_WIDTH / 2;
+      const topY = childNodes[0].y + BOX_HEIGHT / 2;
+      const botY = childNodes[childNodes.length - 1].y + BOX_HEIGHT / 2;
       lines.push(
         <line
-          key={`rail-${parent.id}`}
-          x1={leftX} y1={midY}
-          x2={rightX} y2={midY}
+          key={`vrail-${parent.id}`}
+          x1={midX} y1={topY}
+          x2={midX} y2={botY}
           stroke={parent.branchColor}
           strokeWidth={1.5}
         />
       );
     }
 
-    // Vertical drop to each child
+    // Horizontal run from mid column to each child left-center
     childNodes.forEach((child) => {
-      const cx = child.x + BOX_WIDTH / 2;
-      const cy = child.y;
-      const color = child.branchColor;
+      const cy = child.y + BOX_HEIGHT / 2;
+      const cx = child.x;
       lines.push(
         <line
-          key={`vup-${child.id}`}
-          x1={cx} y1={midY}
+          key={`hchild-${child.id}`}
+          x1={midX} y1={cy}
           x2={cx} y2={cy}
-          stroke={color}
+          stroke={child.branchColor}
           strokeWidth={1.5}
         />
       );

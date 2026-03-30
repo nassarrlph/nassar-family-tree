@@ -1,0 +1,8 @@
+{
+  "id": "pascale-saad",
+  "father": { "id": "pascale-saad-f", "name": "Pascale Saad" },
+  "mother": { "id": "pascale-saad-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "badih-alia",
+  "father": { "id": "badih-achou", "name": "Badih Achou" },
+  "mother": { "id": "alia-cheaib", "name": "Alia Cheaib" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": ["georges-achou", "rim-achou"]
+}

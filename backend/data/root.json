@@ -1,0 +1,8 @@
+{
+  "id": "root",
+  "father": { "id": "p1", "name": "Nassif Nassar" },
+  "mother": { "id": "p2", "name": "Gheta" },
+  "descendantSide": "none",
+  "branchColor": "#444444",
+  "children": ["assaad-hanne"]
+}

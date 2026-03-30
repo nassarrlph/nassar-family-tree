@@ -1,0 +1,8 @@
+{
+  "id": "rita-hani",
+  "father": { "id": "hani-chalhoub", "name": "Hani Chalhoub" },
+  "mother": { "id": "rita-torbey", "name": "Rita Torbey" },
+  "descendantSide": "mother",
+  "branchColor": "#c8a800",
+  "children": ["jason-chalhoub", "jamie-chalhoub"]
+}

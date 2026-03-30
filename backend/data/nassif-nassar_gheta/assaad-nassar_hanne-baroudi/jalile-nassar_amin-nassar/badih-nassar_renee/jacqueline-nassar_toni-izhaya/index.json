@@ -1,0 +1,8 @@
+{
+  "id": "jacqueline-toni",
+  "father": { "id": "toni-izhaya", "name": "Toni Izhaya" },
+  "mother": { "id": "jacqueline-nassar", "name": "Jacqueline Nassar" },
+  "descendantSide": "mother",
+  "branchColor": "#c8a800",
+  "children": ["norma-paul", "elie-izhaya", "marc-pascale", "mireille-izhaya", "nisrine-izhaya"]
+}

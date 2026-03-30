@@ -1,0 +1,8 @@
+{
+  "id": "rachelle-jad",
+  "father": { "id": "jad-feitrouni", "name": "Jad Feitrouni" },
+  "mother": { "id": "rachelle-torbey", "name": "Rachelle Torbey" },
+  "descendantSide": "mother",
+  "branchColor": "#c8a800",
+  "children": []
+}

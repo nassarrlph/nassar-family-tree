@@ -1,0 +1,8 @@
+{
+  "id": "assaad-hanne",
+  "father": { "id": "assaad", "name": "Assaad Nassar" },
+  "mother": { "id": "hanne", "name": "Hanné Baroudi" },
+  "descendantSide": "father",
+  "branchColor": "#444444",
+  "children": ["jalile-amin", "chukri-linda", "georges-nabiha", "salim-victorine", "michel-victoria", "adele-antsun", "linda-elias"]
+}

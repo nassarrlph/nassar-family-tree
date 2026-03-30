@@ -1,0 +1,8 @@
+{
+  "id": "michel-victoria",
+  "father": { "id": "michel", "name": "Michel Nassar" },
+  "mother": { "id": "victoria-zhour", "name": "1- Victoria Achou\n2- Zhour Saad" },
+  "descendantSide": "father",
+  "branchColor": "#e05c5c",
+  "children": []
+}

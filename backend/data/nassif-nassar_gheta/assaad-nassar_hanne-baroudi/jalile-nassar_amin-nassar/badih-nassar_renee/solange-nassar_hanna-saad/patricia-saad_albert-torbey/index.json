@@ -1,0 +1,8 @@
+{
+  "id": "patricia-albert",
+  "father": { "id": "albert-torbey", "name": "Albert Torbey" },
+  "mother": { "id": "patricia-saad", "name": "Patricia Saad" },
+  "descendantSide": "mother",
+  "branchColor": "#c8a800",
+  "children": ["rita-hani", "rachelle-jad"]
+}

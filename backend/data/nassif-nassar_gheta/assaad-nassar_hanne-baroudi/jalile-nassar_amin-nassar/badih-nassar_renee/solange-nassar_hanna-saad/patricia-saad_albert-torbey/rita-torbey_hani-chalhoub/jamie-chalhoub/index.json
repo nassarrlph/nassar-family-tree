@@ -1,0 +1,8 @@
+{
+  "id": "jamie-chalhoub",
+  "father": { "id": "jamie-chalhoub-f", "name": "Jamie Chalhoub" },
+  "mother": { "id": "jamie-chalhoub-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": []
+}

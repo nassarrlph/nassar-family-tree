@@ -1,0 +1,8 @@
+{
+  "id": "elie-izhaya",
+  "father": { "id": "elie-izhaya-f", "name": "Elie Izhaya" },
+  "mother": { "id": "elie-izhaya-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": []
+}

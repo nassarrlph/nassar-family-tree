@@ -1,0 +1,8 @@
+{
+  "id": "suida-toni",
+  "father": { "id": "toni-kesrouani", "name": "Toni Kesrouani" },
+  "mother": { "id": "suida-saad", "name": "Suida Saad" },
+  "descendantSide": "mother",
+  "branchColor": "#c8a800",
+  "children": ["georges-saad", "joanna-saad"]
+}

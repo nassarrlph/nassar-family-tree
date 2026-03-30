@@ -1,0 +1,8 @@
+{
+  "id": "adele-antsun",
+  "father": { "id": "adele", "name": "Adèle Nassar" },
+  "mother": { "id": "antsun", "name": "Antsun Cordahi" },
+  "descendantSide": "mother",
+  "branchColor": "#f0c040",
+  "children": []
+}

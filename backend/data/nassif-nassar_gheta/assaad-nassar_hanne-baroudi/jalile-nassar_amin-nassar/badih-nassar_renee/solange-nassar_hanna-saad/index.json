@@ -1,0 +1,8 @@
+{
+  "id": "solange-hanna",
+  "father": { "id": "hanna-saad", "name": "Hanna Saad" },
+  "mother": { "id": "solange-nassar", "name": "Solange Nassar" },
+  "descendantSide": "mother",
+  "branchColor": "#c8a800",
+  "children": ["patricia-albert", "suida-toni", "pascale-saad", "toni-elena", "karol-katia", "cosette-saad", "patrick-rana"]
+}

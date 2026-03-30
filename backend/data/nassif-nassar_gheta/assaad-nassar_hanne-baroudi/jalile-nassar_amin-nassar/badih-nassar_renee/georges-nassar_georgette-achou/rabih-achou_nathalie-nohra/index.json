@@ -1,0 +1,8 @@
+{
+  "id": "rabih-nathalie",
+  "father": { "id": "rabih-achou", "name": "Rabih Achou" },
+  "mother": { "id": "nathalie-nohra", "name": "Nathalie Nohra" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": ["joy-achou", "joe-achou"]
+}

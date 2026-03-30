@@ -1,0 +1,8 @@
+{
+  "id": "marc-anthony-ghaleb",
+  "father": { "id": "marc-anthony-ghaleb-f", "name": "Marc-Anthony Ghaleb" },
+  "mother": { "id": "marc-anthony-ghaleb-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": []
+}

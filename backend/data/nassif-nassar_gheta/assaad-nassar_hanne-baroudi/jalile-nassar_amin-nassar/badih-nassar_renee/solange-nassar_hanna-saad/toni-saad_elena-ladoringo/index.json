@@ -1,0 +1,8 @@
+{
+  "id": "toni-elena",
+  "father": { "id": "toni-saad", "name": "Toni Saad" },
+  "mother": { "id": "elena-ladoringo", "name": "Elena Ladoringo" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": ["suida-saad-2", "ivan-saad"]
+}

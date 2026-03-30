@@ -1,0 +1,8 @@
+{
+  "id": "rim-achou",
+  "father": { "id": "rim-achou-f", "name": "Rim Achou" },
+  "mother": { "id": "rim-achou-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": []
+}

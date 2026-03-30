@@ -1,0 +1,8 @@
+{
+  "id": "badih-renee",
+  "father": { "id": "badih", "name": "Badih Nassar" },
+  "mother": { "id": "renee", "name": "Renée ..." },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": ["jacqueline-toni", "solange-hanna", "georges-georgette"]
+}

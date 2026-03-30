@@ -1,0 +1,8 @@
+{
+  "id": "georges-saad",
+  "father": { "id": "georges-saad-f", "name": "Georges Kesrouani" },
+  "mother": { "id": "georges-saad-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": []
+}

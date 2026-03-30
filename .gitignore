@@ -2,5 +2,4 @@ node_modules/
 dist/
 .DS_Store
 
-# Backend generated data (optional: remove if you want to track tree.json)
-backend/tree.json
+# data/ folder contains the persistent family tree data

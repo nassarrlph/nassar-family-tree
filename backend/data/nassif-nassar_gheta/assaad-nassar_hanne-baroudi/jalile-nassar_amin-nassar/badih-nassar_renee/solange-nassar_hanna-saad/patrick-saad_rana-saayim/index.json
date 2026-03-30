@@ -1,0 +1,8 @@
+{
+  "id": "patrick-rana",
+  "father": { "id": "patrick-saad", "name": "Patrick Saad" },
+  "mother": { "id": "rana-saayim", "name": "Rana Saayim" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": ["joe-saad", "lea-saad", "lynn-saad"]
+}

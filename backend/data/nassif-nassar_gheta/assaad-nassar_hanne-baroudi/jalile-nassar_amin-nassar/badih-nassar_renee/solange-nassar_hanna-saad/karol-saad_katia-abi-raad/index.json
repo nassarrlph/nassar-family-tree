@@ -1,0 +1,8 @@
+{
+  "id": "karol-katia",
+  "father": { "id": "karol-saad", "name": "Karol Saad" },
+  "mother": { "id": "katia-abi-raad", "name": "Katia Abi-Raad" },
+  "descendantSide": "father",
+  "branchColor": "#c8a800",
+  "children": ["karl-saad"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "norma-paul",
+  "father": { "id": "paul-ghaleb", "name": "Paul Ghaleb" },
+  "mother": { "id": "norma-izhaya", "name": "Norma Izhaya" },
+  "descendantSide": "mother",
+  "branchColor": "#c8a800",
+  "children": ["marc-anthony-ghaleb", "nicolas-ghaleb"]
+}

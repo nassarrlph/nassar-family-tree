@@ -40,10 +40,12 @@ export const ConnectorLayer: React.FC<Props> = ({ nodes }) => {
       />
     );
 
-    // Vertical rail spanning all children at midX
-    if (childNodes.length > 1) {
-      const topY = childNodes[0].y + nodeBoxHeight(childNodes[0]) / 2;
-      const botY = childNodes[childNodes.length - 1].y + nodeBoxHeight(childNodes[childNodes.length - 1]) / 2;
+    // Vertical rail at midX — spans from parent Y to the range of all children
+    const childCenterYs = childNodes.map((c) => c.y + nodeBoxHeight(c) / 2);
+    const topY = Math.min(py, ...childCenterYs);
+    const botY = Math.max(py, ...childCenterYs);
+
+    if (topY !== botY) {
       lines.push(
         <line
           key={`vrail-${parent.id}`}

@@ -1,0 +1,8 @@
+{
+  "id": "omar-nima",
+  "father": { "id": "omar-baroudi", "name": "Omar Baroudi" },
+  "mother": { "id": "nima-abou-atme", "name": "Mima Abou-Atmé" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": ["yan-baroudi"]
+}

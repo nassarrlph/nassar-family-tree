@@ -1,0 +1,8 @@
+{
+  "id": "alma-assaf",
+  "father": { "id": "alma-assaf-f", "name": "Alma Assaf" },
+  "mother": { "id": "alma-assaf-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

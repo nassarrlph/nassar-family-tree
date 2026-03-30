@@ -1,0 +1,8 @@
+{
+  "id": "sami-khairallah-2",
+  "father": { "id": "sami-khairallah-2-f", "name": "Sami Khairallah" },
+  "mother": { "id": "sami-khairallah-2-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ronald-samaha",
+  "father": { "id": "ronald-samaha-f", "name": "Ronald Samaha" },
+  "mother": { "id": "ronald-samaha-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

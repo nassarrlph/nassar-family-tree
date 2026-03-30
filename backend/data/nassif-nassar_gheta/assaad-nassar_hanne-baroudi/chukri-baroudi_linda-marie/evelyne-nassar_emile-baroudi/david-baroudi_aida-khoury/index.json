@@ -1,0 +1,8 @@
+{
+  "id": "david-aida",
+  "father": { "id": "david-baroudi", "name": "David Baroudi" },
+  "mother": { "id": "aida-khoury", "name": "Aïda Khoury" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": ["atallah-baroudi"]
+}

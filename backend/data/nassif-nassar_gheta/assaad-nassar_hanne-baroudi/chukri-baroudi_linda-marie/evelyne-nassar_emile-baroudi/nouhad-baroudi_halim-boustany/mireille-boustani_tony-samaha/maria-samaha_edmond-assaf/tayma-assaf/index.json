@@ -1,0 +1,8 @@
+{
+  "id": "tayma-assaf",
+  "father": { "id": "tayma-assaf-f", "name": "Tayma Assaf" },
+  "mother": { "id": "tayma-assaf-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

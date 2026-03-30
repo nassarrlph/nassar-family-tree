@@ -1,0 +1,8 @@
+{
+  "id": "bassem-roula",
+  "father": { "id": "bassem-boustani", "name": "Bassem Boustany" },
+  "mother": { "id": "roula-maalouf", "name": "Roula Maalouf" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": ["bassem-boustani-2", "samer-boustani"]
+}

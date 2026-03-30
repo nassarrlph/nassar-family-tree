@@ -1,0 +1,8 @@
+{
+  "id": "raphaelle-golder",
+  "father": { "id": "raphaelle-golder-f", "name": "Raphaëlle Golder" },
+  "mother": { "id": "raphaelle-golder-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

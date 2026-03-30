@@ -1,0 +1,8 @@
+{
+  "id": "nouhad-halim",
+  "father": { "id": "halim-boustany", "name": "Halim Boustany" },
+  "mother": { "id": "nouhad-baroudi", "name": "Nouhad Baroudi" },
+  "descendantSide": "mother",
+  "branchColor": "#6b7280",
+  "children": ["emile-caline", "mireille-tony", "jocelyne-naji", "bassem-roula"]
+}

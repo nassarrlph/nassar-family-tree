@@ -1,0 +1,8 @@
+{
+  "id": "cyril-boustani",
+  "father": { "id": "cyril-boustani-f", "name": "Cyril Boustany" },
+  "mother": { "id": "cyril-boustani-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

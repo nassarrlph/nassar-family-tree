@@ -1,0 +1,8 @@
+{
+  "id": "samer-boustani",
+  "father": { "id": "samer-boustani-f", "name": "Samer Boustany" },
+  "mother": { "id": "samer-boustani-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

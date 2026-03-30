@@ -1,0 +1,8 @@
+{
+  "id": "evelyne-emile",
+  "father": { "id": "emile-baroudi", "name": "Emile Baroudi" },
+  "mother": { "id": "evelyne-nassar", "name": "Evelyne Nassar" },
+  "descendantSide": "mother",
+  "branchColor": "#6b7280",
+  "children": ["ibrahim-berthe", "sleimane-anna", "nouhad-halim", "wadad-joseph", "david-aida"]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "jocelyne-naji",
+  "father": { "id": "naji-khairallah", "name": "Naji Khairallah" },
+  "mother": { "id": "jocelyne-boustani", "name": "Jocelyne Boustany" },
+  "descendantSide": "mother",
+  "branchColor": "#6b7280",
+  "children": ["sami-dana", "naji-melissa"]
+}

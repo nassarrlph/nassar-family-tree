@@ -1,0 +1,8 @@
+{
+  "id": "ghaida-joel",
+  "father": { "id": "joel-golder", "name": "Joël Golder" },
+  "mother": { "id": "ghaida-baroudi", "name": "Ghaïda Baroudi" },
+  "descendantSide": "mother",
+  "branchColor": "#6b7280",
+  "children": ["eva-golder", "raphaelle-golder"]
+}

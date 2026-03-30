@@ -90,6 +90,14 @@ export const TreeCanvas: React.FC<Props> = ({ tree, selectedId, onSelect }) => {
     });
   };
 
+  // Zoom toward canvas center (for buttons)
+  const zoomCentered = (delta: number) => {
+    const rect = containerRef.current?.getBoundingClientRect();
+    const cx = rect ? rect.width / 2 : 0;
+    const cy = rect ? rect.height / 2 : 0;
+    zoomToward(delta, cx, cy);
+  };
+
   const handleMouseDown = (e: React.MouseEvent) => {
     if ((e.target as SVGElement).closest("g[data-box]")) return;
     dragging.current = true;
@@ -181,26 +189,28 @@ export const TreeCanvas: React.FC<Props> = ({ tree, selectedId, onSelect }) => {
       </svg>
 
       <div style={{ position: "absolute", bottom: 16, right: 16, display: "flex", flexDirection: "column", gap: 4 }}>
-        <button onClick={() => expandAll()} style={ctrlBtn} title="Expand all">⊞</button>
-        <button onClick={() => collapseAll(tree)} style={ctrlBtn} title="Collapse all">⊟</button>
+        <button onClick={() => expandAll()} style={ctrlBtn} title="Expand all">⊞ Expand all</button>
+        <button onClick={() => collapseAll(tree)} style={ctrlBtn} title="Collapse all">⊟ Collapse all</button>
         <div style={{ height: 8 }} />
-        <button onClick={() => zoomToward(0.15, mousePos.current.x, mousePos.current.y)} style={ctrlBtn}>+</button>
+        <button onClick={() => zoomCentered(0.15)} style={ctrlBtn}>+</button>
         <button onClick={() => { setZoom(1); setPan({ x: 0, y: 0 }); }} style={ctrlBtn}>⊙</button>
-        <button onClick={() => zoomToward(-0.15, mousePos.current.x, mousePos.current.y)} style={ctrlBtn}>−</button>
+        <button onClick={() => zoomCentered(-0.15)} style={ctrlBtn}>−</button>
       </div>
     </div>
   );
 };
 
 const ctrlBtn: React.CSSProperties = {
-  width: 32,
   height: 32,
+  padding: "0 10px",
   border: "1px solid #ccc",
   background: "white",
   borderRadius: 4,
   cursor: "pointer",
-  fontSize: 16,
+  fontSize: 13,
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+  whiteSpace: "nowrap",
+  gap: 4,
 };

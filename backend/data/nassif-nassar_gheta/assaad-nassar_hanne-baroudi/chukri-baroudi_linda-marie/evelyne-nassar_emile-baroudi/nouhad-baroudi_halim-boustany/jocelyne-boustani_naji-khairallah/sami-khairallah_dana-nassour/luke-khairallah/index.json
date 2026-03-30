@@ -1,0 +1,8 @@
+{
+  "id": "luke-khairallah",
+  "father": { "id": "luke-khairallah-f", "name": "Luke Khairallah" },
+  "mother": { "id": "luke-khairallah-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

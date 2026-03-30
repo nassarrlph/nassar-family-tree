@@ -1,0 +1,8 @@
+{
+  "id": "sami-dana",
+  "father": { "id": "sami-khairallah", "name": "Sami Khairallah" },
+  "mother": { "id": "dana-nassour", "name": "Dana Nassour" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": ["luke-khairallah", "sienna-khairallah"]
+}

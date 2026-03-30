@@ -1,0 +1,8 @@
+{
+  "id": "maria-edmond",
+  "father": { "id": "edmond-assaf", "name": "Edmond Assaf" },
+  "mother": { "id": "maria-samaha", "name": "Maria Samaha" },
+  "descendantSide": "mother",
+  "branchColor": "#6b7280",
+  "children": ["alma-assaf", "tayma-assaf"]
+}

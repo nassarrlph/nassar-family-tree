@@ -1,0 +1,8 @@
+{
+  "id": "bassem-boustani-2",
+  "father": { "id": "bassem-boustani-2-f", "name": "Bassem Boustany" },
+  "mother": { "id": "bassem-boustani-2-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "karen-zantout",
+  "father": { "id": "karen-zantout-f", "name": "Karen Zantout" },
+  "mother": { "id": "karen-zantout-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

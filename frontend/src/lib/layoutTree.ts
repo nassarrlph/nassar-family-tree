@@ -1,7 +1,7 @@
 import { CoupleNode, LayoutNode } from "../types";
 
-export const BOX_WIDTH = 150;
-export const H_GAP = 60;
+export const BOX_WIDTH = 180;
+export const H_GAP = 30;
 export const V_GAP = 16;
 
 const PADDING = 5;

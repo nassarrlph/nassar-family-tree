@@ -1,0 +1,8 @@
+{
+  "id": "mireille-tony",
+  "father": { "id": "tony-samaha", "name": "Tony Samaha" },
+  "mother": { "id": "mireille-boustani", "name": "Mireille Boustany" },
+  "descendantSide": "mother",
+  "branchColor": "#6b7280",
+  "children": ["ronald-samaha", "maria-edmond", "joanna-raef"]
+}

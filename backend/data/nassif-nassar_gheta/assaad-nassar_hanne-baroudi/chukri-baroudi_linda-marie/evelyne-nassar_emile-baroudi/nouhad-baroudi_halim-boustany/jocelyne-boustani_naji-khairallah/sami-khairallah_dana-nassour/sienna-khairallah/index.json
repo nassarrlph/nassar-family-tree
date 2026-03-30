@@ -1,0 +1,8 @@
+{
+  "id": "sienna-khairallah",
+  "father": { "id": "sienna-khairallah-f", "name": "Sienna Khairallah" },
+  "mother": { "id": "sienna-khairallah-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

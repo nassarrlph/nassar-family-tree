@@ -1,6 +1,6 @@
 import React from "react";
 import { LayoutNode } from "../types";
-import { BOX_WIDTH, BOX_HEIGHT, H_GAP } from "../lib/layoutTree";
+import { BOX_WIDTH, H_GAP, nodeBoxHeight } from "../lib/layoutTree";
 
 interface Props {
   nodes: Map<string, LayoutNode>;
@@ -24,7 +24,7 @@ export const ConnectorLayer: React.FC<Props> = ({ nodes }) => {
 
     // Parent exit point: right-center
     const px = parent.x + BOX_WIDTH;
-    const py = parent.y + BOX_HEIGHT / 2;
+    const py = parent.y + nodeBoxHeight(parent) / 2;
 
     // Midpoint X between parent right and first child left
     const midX = px + H_GAP / 2;
@@ -42,8 +42,8 @@ export const ConnectorLayer: React.FC<Props> = ({ nodes }) => {
 
     // Vertical rail spanning all children at midX
     if (childNodes.length > 1) {
-      const topY = childNodes[0].y + BOX_HEIGHT / 2;
-      const botY = childNodes[childNodes.length - 1].y + BOX_HEIGHT / 2;
+      const topY = childNodes[0].y + nodeBoxHeight(childNodes[0]) / 2;
+      const botY = childNodes[childNodes.length - 1].y + nodeBoxHeight(childNodes[childNodes.length - 1]) / 2;
       lines.push(
         <line
           key={`vrail-${parent.id}`}
@@ -57,7 +57,7 @@ export const ConnectorLayer: React.FC<Props> = ({ nodes }) => {
 
     // Horizontal run from mid column to each child left-center
     childNodes.forEach((child) => {
-      const cy = child.y + BOX_HEIGHT / 2;
+      const cy = child.y + nodeBoxHeight(child) / 2;
       const cx = child.x;
       lines.push(
         <line

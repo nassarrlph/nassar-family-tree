@@ -1,11 +1,12 @@
 import { create } from "zustand";
 import { CoupleNode, DescendantSide } from "./types";
-import { cloneTree, findNode, removeNode, genId } from "./lib/treeUtils";
+import { cloneTree, findNode, removeNode, genId, flattenTree } from "./lib/treeUtils";
 import { fetchTree, saveTree } from "./lib/api";
 
 interface TreeStore {
   tree: CoupleNode | null;
   selectedId: string | null;
+  collapsedIds: Set<string>;
   saving: boolean;
   loading: boolean;
   error: string | null;
@@ -13,6 +14,9 @@ interface TreeStore {
   loadTree: () => Promise<void>;
   persistTree: () => Promise<void>;
   selectNode: (id: string | null) => void;
+  toggleCollapse: (id: string) => void;
+  collapseAll: (tree: CoupleNode) => void;
+  expandAll: () => void;
 
   updateNode: (id: string, patch: Partial<Omit<CoupleNode, "id" | "children">>) => void;
   addChild: (parentId: string) => void;
@@ -22,6 +26,7 @@ interface TreeStore {
 export const useTreeStore = create<TreeStore>((set, get) => ({
   tree: null,
   selectedId: null,
+  collapsedIds: new Set(),
   saving: false,
   loading: false,
   error: null,
@@ -49,6 +54,23 @@ export const useTreeStore = create<TreeStore>((set, get) => ({
   },
 
   selectNode: (id) => set({ selectedId: id }),
+
+  toggleCollapse: (id) => {
+    const { collapsedIds } = get();
+    const next = new Set(collapsedIds);
+    if (next.has(id)) next.delete(id);
+    else next.add(id);
+    set({ collapsedIds: next });
+  },
+
+  collapseAll: (tree) => {
+    const ids = flattenTree(tree)
+      .filter((n) => n.children.length > 0)
+      .map((n) => n.id);
+    set({ collapsedIds: new Set(ids) });
+  },
+
+  expandAll: () => set({ collapsedIds: new Set() }),
 
   updateNode: (id, patch) => {
     const { tree } = get();

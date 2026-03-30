@@ -1,0 +1,8 @@
+{
+  "id": "talia-noun",
+  "father": { "id": "anthony-fanous", "name": "Anthony Fanous" },
+  "mother": { "id": "talia-noun-f", "name": "Talia Noun" },
+  "descendantSide": "mother",
+  "branchColor": "#cc0000",
+  "children": []
+}

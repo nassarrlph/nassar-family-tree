@@ -23,3 +23,9 @@ export type LayoutNode = CoupleNode & {
   y: number;
   subtreeWidth: number;
 };
+
+export type CrossLink = {
+  from: string; // couple id
+  to: string;   // couple id
+  label?: string;
+};

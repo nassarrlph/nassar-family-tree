@@ -1,4 +1,4 @@
-import { CoupleNode } from "../types";
+import { CoupleNode, CrossLink } from "../types";
 
 const BASE = "/api";
 
@@ -15,4 +15,10 @@ export async function saveTree(tree: CoupleNode): Promise<void> {
     body: JSON.stringify(tree),
   });
   if (!res.ok) throw new Error("Failed to save tree");
+}
+
+export async function fetchCrossLinks(): Promise<CrossLink[]> {
+  const res = await fetch(`${BASE}/crosslinks`);
+  if (!res.ok) return [];
+  return res.json();
 }

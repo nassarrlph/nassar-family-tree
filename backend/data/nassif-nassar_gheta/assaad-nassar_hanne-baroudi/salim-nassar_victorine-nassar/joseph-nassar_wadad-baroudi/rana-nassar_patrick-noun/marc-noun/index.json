@@ -1,0 +1,8 @@
+{
+  "id": "marc-noun",
+  "father": { "id": "marc-noun-f", "name": "Marc Noun" },
+  "mother": { "id": "marc-noun-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#cc0000",
+  "children": []
+}

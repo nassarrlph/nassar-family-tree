@@ -1,0 +1,8 @@
+{
+  "id": "tina-maria-noun",
+  "father": { "id": "tina-maria-noun-f", "name": "Tina-Maria Noun" },
+  "mother": { "id": "tino-maria-noun-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#cc0000",
+  "children": []
+}

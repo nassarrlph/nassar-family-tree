@@ -63,8 +63,8 @@ export const CoupleBox: React.FC<Props> = ({ node, selected, collapsed, onClick,
   const boxH = nodeBoxHeight(node);
   const maxTextW = BOX_WIDTH - PADDING * 2;
 
-  const toggleX = x + BOX_WIDTH + 10;
-  const toggleY = y + boxH / 2;
+  const toggleX = x + BOX_WIDTH - TOGGLE_R - 6;
+  const toggleY = y + TOGGLE_R + 6;
 
   if (isCouple) {
     const fLines = wrapText(father.name, maxTextW);
@@ -106,7 +106,7 @@ export const CoupleBox: React.FC<Props> = ({ node, selected, collapsed, onClick,
         </g>
 
         {hasChildren && (
-          <g onClick={(e) => { e.stopPropagation(); onToggleCollapse(node.id); }} style={{ cursor: "pointer" }}>
+          <g data-toggle onClick={(e) => { e.stopPropagation(); onToggleCollapse(node.id); }} style={{ cursor: "pointer" }}>
             <circle cx={toggleX} cy={toggleY} r={TOGGLE_R}
               fill="white" stroke={branchColor} strokeWidth={1.5} />
             <text x={toggleX} y={toggleY + FONT_SIZE / 2 - 1}
@@ -147,7 +147,7 @@ export const CoupleBox: React.FC<Props> = ({ node, selected, collapsed, onClick,
       </g>
 
       {hasChildren && (
-        <g onClick={(e) => { e.stopPropagation(); onToggleCollapse(node.id); }} style={{ cursor: "pointer" }}>
+        <g data-toggle onClick={(e) => { e.stopPropagation(); onToggleCollapse(node.id); }} style={{ cursor: "pointer" }}>
           <circle cx={toggleX} cy={toggleY} r={TOGGLE_R}
             fill="white" stroke={branchColor} strokeWidth={1.5} />
           <text x={toggleX} y={toggleY + FONT_SIZE / 2 - 1}

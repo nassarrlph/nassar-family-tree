@@ -1,0 +1,8 @@
+{
+  "id": "nada-melhem",
+  "father": { "id": "melhem-chaoul", "name": "Melhem Chaoul" },
+  "mother": { "id": "nada-nassar", "name": "Nada Nassar" },
+  "descendantSide": "mother",
+  "branchColor": "#d8a7c5",
+  "children": ["joseph-ralda", "raja-chaoul"]
+}

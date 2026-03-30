@@ -19,3 +19,11 @@ select, input {
 select:focus, input:focus {
   border-color: #1d4ed8 !important;
 }
+
+/* Always show pointer cursor over couple boxes and their children */
+svg g[data-box],
+svg g[data-box] *,
+svg g[data-toggle],
+svg g[data-toggle] * {
+  cursor: pointer !important;
+}

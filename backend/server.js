@@ -120,6 +120,27 @@ app.get("/api/tree", (req, res) => {
   res.json(tree);
 });
 
+app.get("/api/crosslinks", (req, res) => {
+  const p = path.join(DATA_DIR, "crosslinks.json");
+  if (!fs.existsSync(p)) return res.json([]);
+  try {
+    res.json(JSON.parse(fs.readFileSync(p, "utf-8")));
+  } catch {
+    res.json([]);
+  }
+});
+
+app.post("/api/crosslinks", (req, res) => {
+  const links = req.body;
+  if (!Array.isArray(links)) return res.status(400).json({ error: "Expected array" });
+  try {
+    fs.writeFileSync(path.join(DATA_DIR, "crosslinks.json"), JSON.stringify(links, null, 2));
+    res.json({ ok: true });
+  } catch (e) {
+    res.status(500).json({ error: String(e) });
+  }
+});
+
 app.post("/api/tree", (req, res) => {
   const tree = req.body;
   if (!tree || typeof tree !== "object" || !tree.id) {

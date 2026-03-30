@@ -1,0 +1,8 @@
+{
+  "id": "jad-sfeir",
+  "father": { "id": "jad-sfeir-f", "name": "Jad Sfeir" },
+  "mother": { "id": "jad-sfeir-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#cc0000",
+  "children": []
+}

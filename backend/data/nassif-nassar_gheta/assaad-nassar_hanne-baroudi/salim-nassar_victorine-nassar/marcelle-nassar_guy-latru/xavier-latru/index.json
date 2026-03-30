@@ -1,0 +1,8 @@
+{
+  "id": "xavier-latru",
+  "father": { "id": "xavier-latru-f", "name": "Xavier Latru" },
+  "mother": { "id": "xavier-latru-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#d8a7c5",
+  "children": []
+}

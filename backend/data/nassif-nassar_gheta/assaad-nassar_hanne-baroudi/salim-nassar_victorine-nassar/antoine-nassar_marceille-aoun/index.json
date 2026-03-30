@@ -1,0 +1,8 @@
+{
+  "id": "antoine-marceille",
+  "father": { "id": "antoine-nassar", "name": "Antoine Nassar" },
+  "mother": { "id": "marceille-aoun", "name": "Marceille Aoun" },
+  "descendantSide": "father",
+  "branchColor": "#d8a7c5",
+  "children": ["nada-melhem", "fadi-noha", "sami-amal"]
+}

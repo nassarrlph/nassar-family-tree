@@ -4,5 +4,5 @@
   "mother": { "id": "victorine", "name": "Victorine Nassar" },
   "descendantSide": "father",
   "branchColor": "#d8a7c5",
-  "children": []
+  "children": ["antoine-marceille", "joseph-wadad", "georges-maha", "marcelle-guy"]
 }

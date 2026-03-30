@@ -1,0 +1,8 @@
+{
+  "id": "anthony-nassar",
+  "father": { "id": "anthony-nassar-f", "name": "Anthony Nassar" },
+  "mother": { "id": "anthony-nassar-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#d8a7c5",
+  "children": []
+}

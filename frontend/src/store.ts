@@ -1,12 +1,13 @@
 import { create } from "zustand";
-import { CoupleNode, DescendantSide } from "./types";
+import { CoupleNode, DescendantSide, CrossLink } from "./types";
 import { cloneTree, findNode, removeNode, genId, flattenTree } from "./lib/treeUtils";
-import { fetchTree, saveTree } from "./lib/api";
+import { fetchTree, saveTree, fetchCrossLinks } from "./lib/api";
 
 interface TreeStore {
   tree: CoupleNode | null;
   selectedId: string | null;
   collapsedIds: Set<string>;
+  crossLinks: CrossLink[];
   saving: boolean;
   loading: boolean;
   error: string | null;
@@ -27,6 +28,7 @@ export const useTreeStore = create<TreeStore>((set, get) => ({
   tree: null,
   selectedId: null,
   collapsedIds: new Set(),
+  crossLinks: [],
   saving: false,
   loading: false,
   error: null,
@@ -34,8 +36,8 @@ export const useTreeStore = create<TreeStore>((set, get) => ({
   loadTree: async () => {
     set({ loading: true, error: null });
     try {
-      const tree = await fetchTree();
-      set({ tree, loading: false });
+      const [tree, crossLinks] = await Promise.all([fetchTree(), fetchCrossLinks()]);
+      set({ tree, crossLinks, loading: false });
     } catch (e) {
       set({ error: String(e), loading: false });
     }

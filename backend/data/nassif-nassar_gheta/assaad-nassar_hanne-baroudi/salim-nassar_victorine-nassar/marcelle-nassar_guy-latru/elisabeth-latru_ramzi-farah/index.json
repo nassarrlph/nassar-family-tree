@@ -1,0 +1,8 @@
+{
+  "id": "elisabeth-ramzi",
+  "father": { "id": "ramzi-farah", "name": "Ramzi Farah" },
+  "mother": { "id": "elisabeth-latru", "name": "Elisabeth Latru" },
+  "descendantSide": "mother",
+  "branchColor": "#d8a7c5",
+  "children": []
+}

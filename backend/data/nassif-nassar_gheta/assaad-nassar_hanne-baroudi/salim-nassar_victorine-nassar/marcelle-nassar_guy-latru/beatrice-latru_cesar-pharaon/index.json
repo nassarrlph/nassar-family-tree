@@ -1,0 +1,8 @@
+{
+  "id": "beatrice-cesar",
+  "father": { "id": "cesar-pharaon", "name": "César Pharaon" },
+  "mother": { "id": "beatrice-latru", "name": "Béatrice Latru" },
+  "descendantSide": "mother",
+  "branchColor": "#d8a7c5",
+  "children": []
+}

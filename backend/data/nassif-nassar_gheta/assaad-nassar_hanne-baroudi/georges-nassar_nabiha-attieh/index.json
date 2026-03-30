@@ -4,5 +4,5 @@
   "mother": { "id": "nabiha", "name": "Nabiha Attieh" },
   "descendantSide": "father",
   "branchColor": "#5b9bd5",
-  "children": []
+  "children": ["fred-nassar", "rene-nassar", "sarah-nassar"]
 }

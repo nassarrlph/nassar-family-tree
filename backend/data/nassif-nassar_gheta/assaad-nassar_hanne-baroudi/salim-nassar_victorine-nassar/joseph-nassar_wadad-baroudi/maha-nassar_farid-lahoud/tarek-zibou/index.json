@@ -1,0 +1,8 @@
+{
+  "id": "tarek-zibou",
+  "father": { "id": "tarek-lahoud-f", "name": "Tarek Lahoud" },
+  "mother": { "id": "zibou-zhou", "name": "Zibou Zhou" },
+  "descendantSide": "father",
+  "branchColor": "#cc0000",
+  "children": []
+}

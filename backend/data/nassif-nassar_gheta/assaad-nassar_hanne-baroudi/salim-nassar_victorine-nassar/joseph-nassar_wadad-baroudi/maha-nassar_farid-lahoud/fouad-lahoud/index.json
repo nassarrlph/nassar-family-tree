@@ -1,0 +1,8 @@
+{
+  "id": "fouad-lahoud",
+  "father": { "id": "fouad-lahoud-f", "name": "Fouad Lahoud" },
+  "mother": { "id": "fouad-lahoud-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#cc0000",
+  "children": []
+}

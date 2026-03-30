@@ -1,0 +1,8 @@
+{
+  "id": "raphael-chaoul",
+  "father": { "id": "raphael-chaoul-f", "name": "Raphaël Chaoul" },
+  "mother": { "id": "raphael-chaoul-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#d8a7c5",
+  "children": []
+}

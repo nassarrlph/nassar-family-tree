@@ -5,7 +5,6 @@ import { CoupleBox } from "./CoupleBox";
 import { ConnectorLayer } from "./ConnectorLayer";
 import { flattenTree } from "../lib/treeUtils";
 import { useTreeStore } from "../store";
-
 interface Props {
   tree: CoupleNode;
   selectedId: string | null;
@@ -13,7 +12,7 @@ interface Props {
 }
 
 export const TreeCanvas: React.FC<Props> = ({ tree, selectedId, onSelect }) => {
-  const { collapsedIds, toggleCollapse, collapseAll, expandAll } = useTreeStore();
+  const { collapsedIds, toggleCollapse, collapseAll, expandAll, crossLinks } = useTreeStore();
 
   const layoutMap = useMemo(() => computeLayout(tree, collapsedIds), [tree, collapsedIds]);
 
@@ -173,7 +172,7 @@ export const TreeCanvas: React.FC<Props> = ({ tree, selectedId, onSelect }) => {
       >
         <g transform={`translate(${pan.x}, ${pan.y}) scale(${zoom})`}>
           <g transform={`translate(${-minX}, ${-minY})`}>
-            <ConnectorLayer nodes={layoutMap} />
+            <ConnectorLayer nodes={layoutMap} crossLinks={crossLinks} />
             {flatNodes.map((node) => (
               <CoupleBox
                 key={node.id}

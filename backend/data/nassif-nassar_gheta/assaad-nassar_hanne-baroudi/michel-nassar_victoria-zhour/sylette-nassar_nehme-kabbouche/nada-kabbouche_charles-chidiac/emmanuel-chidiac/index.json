@@ -1,0 +1,8 @@
+{
+  "id": "emmanuel-chidiac",
+  "father": { "id": "emmanuel-chidiac-f", "name": "Emmanuel Chidiac" },
+  "mother": { "id": "emmanuel-chidiac-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#e05c5c",
+  "children": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "michelle-bobby",
+  "father": { "id": "bobby-tannouri", "name": "Bobby Tannouri" },
+  "mother": { "id": "michelle-nassar", "name": "Michelle Nassar" },
+  "descendantSide": "mother",
+  "branchColor": "#e05c5c",
+  "children": ["tia-tannouri", "tony-tannouri"]
+}

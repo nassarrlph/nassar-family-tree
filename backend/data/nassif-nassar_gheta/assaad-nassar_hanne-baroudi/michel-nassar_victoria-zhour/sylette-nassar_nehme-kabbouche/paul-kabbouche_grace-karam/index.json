@@ -1,0 +1,8 @@
+{
+  "id": "paul-grace",
+  "father": { "id": "paul-kabbouche", "name": "Paul Kabbouche" },
+  "mother": { "id": "grace-karam", "name": "Grace Karam" },
+  "descendantSide": "father",
+  "branchColor": "#e05c5c",
+  "children": ["marc-kabbouche", "thomas-kabbouche"]
+}

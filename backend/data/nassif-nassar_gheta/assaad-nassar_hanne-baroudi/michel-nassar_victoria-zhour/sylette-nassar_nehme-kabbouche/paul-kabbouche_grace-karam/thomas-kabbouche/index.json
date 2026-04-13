@@ -1,0 +1,8 @@
+{
+  "id": "thomas-kabbouche",
+  "father": { "id": "thomas-kabbouche-f", "name": "Thomas Kabbouche" },
+  "mother": { "id": "thomas-kabbouche-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#e05c5c",
+  "children": []
+}

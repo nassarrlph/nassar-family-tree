@@ -1,7 +1,7 @@
 {
   "id": "georges-nabiha",
   "father": { "id": "georges", "name": "Georges Nassar" },
-  "mother": { "id": "nabiha", "name": "Nabiha Attieh" },
+  "mother": { "id": "nabiha", "name": "Nabiha Attieh TODO descendence" },
   "descendantSide": "father",
   "branchColor": "#5b9bd5",
   "children": ["fred-nassar", "rene-nassar", "sarah-nassar"]

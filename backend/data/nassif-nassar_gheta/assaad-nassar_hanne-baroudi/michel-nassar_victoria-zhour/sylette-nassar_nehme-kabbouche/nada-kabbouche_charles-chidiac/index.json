@@ -1,0 +1,8 @@
+{
+  "id": "nada-charles",
+  "father": { "id": "charles-chidiac", "name": "Charles Chidiac" },
+  "mother": { "id": "nada-kabbouche", "name": "Nada Kabbouche" },
+  "descendantSide": "mother",
+  "branchColor": "#e05c5c",
+  "children": ["emmanuel-chidiac"]
+}

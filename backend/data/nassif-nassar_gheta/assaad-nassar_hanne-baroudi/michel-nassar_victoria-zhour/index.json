@@ -4,5 +4,5 @@
   "mother": { "id": "victoria-zhour", "name": "1- Victoria Achou\n2- Zhour Saad" },
   "descendantSide": "father",
   "branchColor": "#e05c5c",
-  "children": []
+  "children": ["georges-mary", "sylette-nehme", "pierre-nassar", "kamal-judy"]
 }

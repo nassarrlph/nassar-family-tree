@@ -1,0 +1,8 @@
+{
+  "id": "sophie-farwagi",
+  "father": { "id": "sophie-farwagi-f", "name": "Sophie Farwagi" },
+  "mother": { "id": "sophie-farwagi-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#e05c5c",
+  "children": []
+}

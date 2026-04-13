@@ -1,0 +1,8 @@
+{
+  "id": "sylette-nehme",
+  "father": { "id": "nehme-kabbouche", "name": "Nehmé Kabbouche" },
+  "mother": { "id": "sylette-nassar", "name": "Sylette Nassar" },
+  "descendantSide": "mother",
+  "branchColor": "#e05c5c",
+  "children": ["rolla-toufiq", "nelly-emile", "tony-nada-absi", "nada-charles", "paul-grace"]
+}

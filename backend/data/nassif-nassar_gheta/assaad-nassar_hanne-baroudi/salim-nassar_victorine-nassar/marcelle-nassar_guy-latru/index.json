@@ -1,6 +1,6 @@
 {
   "id": "marcelle-guy",
-  "father": { "id": "guy-latru", "name": "Guy Latru" },
+  "father": { "id": "guy-latru", "name": "Guy Latru TODO Descendence Latru" },
   "mother": { "id": "marcelle-nassar", "name": "Marcelle Nassar" },
   "descendantSide": "mother",
   "branchColor": "#d8a7c5",

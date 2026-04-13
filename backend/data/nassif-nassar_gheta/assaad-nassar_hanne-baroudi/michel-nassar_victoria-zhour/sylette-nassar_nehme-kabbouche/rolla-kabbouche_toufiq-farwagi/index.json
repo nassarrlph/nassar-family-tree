@@ -1,0 +1,8 @@
+{
+  "id": "rolla-toufiq",
+  "father": { "id": "toufiq-farwagi", "name": "Toufiq Farwagi" },
+  "mother": { "id": "rolla-kabbouche", "name": "Rolla Kabbouche" },
+  "descendantSide": "mother",
+  "branchColor": "#e05c5c",
+  "children": ["sophie-farwagi"]
+}

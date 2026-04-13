@@ -1,0 +1,8 @@
+{
+  "id": "tony-nada-absi",
+  "father": { "id": "tony-kabbouche", "name": "Tony Kabbouche" },
+  "mother": { "id": "nada-absi", "name": "Nada Absi" },
+  "descendantSide": "father",
+  "branchColor": "#e05c5c",
+  "children": []
+}

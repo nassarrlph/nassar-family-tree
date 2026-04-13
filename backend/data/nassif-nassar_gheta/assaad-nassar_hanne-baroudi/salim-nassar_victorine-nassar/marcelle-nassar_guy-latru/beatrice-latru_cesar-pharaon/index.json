@@ -4,5 +4,5 @@
   "mother": { "id": "beatrice-latru", "name": "Béatrice Latru" },
   "descendantSide": "mother",
   "branchColor": "#d8a7c5",
-  "children": []
+  "children": ["alexandre-nassar-b", "victoria-nassar-b", "michel-nassar-b"]
 }

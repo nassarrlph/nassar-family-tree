@@ -1,0 +1,8 @@
+{
+  "id": "rita-carlos",
+  "father": { "id": "carlos-ghosn", "name": "Carlos Ghosn" },
+  "mother": { "id": "rita-cordahi", "name": "Rita Cordahi" },
+  "descendantSide": "mother",
+  "branchColor": "#f0c040",
+  "children": ["caroline-ghosn", "nadine-ghosn", "maya-ghosn", "anthony-ghosn"]
+}

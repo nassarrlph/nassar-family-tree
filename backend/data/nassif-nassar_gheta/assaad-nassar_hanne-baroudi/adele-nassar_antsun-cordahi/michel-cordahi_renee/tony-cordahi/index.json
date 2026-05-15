@@ -1,0 +1,8 @@
+{
+  "id": "tony-cordahi",
+  "father": { "id": "tony-cordahi-f", "name": "Tony Cordahi" },
+  "mother": { "id": "tony-cordahi-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#f0c040",
+  "children": []
+}

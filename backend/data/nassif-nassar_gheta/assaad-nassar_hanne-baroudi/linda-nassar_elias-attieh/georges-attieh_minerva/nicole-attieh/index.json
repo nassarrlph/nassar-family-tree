@@ -1,0 +1,8 @@
+{
+  "id": "nicole-attieh",
+  "father": { "id": "nicole-attieh-f", "name": "Nicole Attieh" },
+  "mother": { "id": "nicole-attieh-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#7ec8a0",
+  "children": []
+}

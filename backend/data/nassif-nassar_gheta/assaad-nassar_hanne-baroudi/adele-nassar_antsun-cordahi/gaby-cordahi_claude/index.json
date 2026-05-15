@@ -1,0 +1,8 @@
+{
+  "id": "gaby-claude",
+  "father": { "id": "gaby-cordahi", "name": "Gaby Cordahi" },
+  "mother": { "id": "claude-cordahi", "name": "Claude" },
+  "descendantSide": "father",
+  "branchColor": "#f0c040",
+  "children": ["rita-carlos"]
+}

@@ -1,8 +1,8 @@
 {
   "id": "raouf-joun",
   "father": { "id": "raouf-baroudi", "name": "Raouf Baroudi" },
-  "mother": { "id": "joun-moussallem", "name": "Joun Moussallem" },
+  "mother": { "id": "june-moussallem", "name": "June Moussallem" },
   "descendantSide": "father",
   "branchColor": "#6b7280",
-  "children": []
+  "children": ["sophie-noel-baroudi", "danielle-baroudi", "estelle-baroudi"]
 }

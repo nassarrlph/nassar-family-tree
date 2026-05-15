@@ -1,0 +1,8 @@
+{
+  "id": "dany-moussalli",
+  "father": { "id": "dany-moussalli-f", "name": "Dany Moussalli" },
+  "mother": { "id": "dany-moussalli-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#f0c040",
+  "children": []
+}

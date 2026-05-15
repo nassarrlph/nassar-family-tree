@@ -1,0 +1,8 @@
+{
+  "id": "marc-joseph-khater",
+  "father": { "id": "marc-joseph-khater-f", "name": "Marc-Joseph Khater" },
+  "mother": { "id": "marc-joseph-khater-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

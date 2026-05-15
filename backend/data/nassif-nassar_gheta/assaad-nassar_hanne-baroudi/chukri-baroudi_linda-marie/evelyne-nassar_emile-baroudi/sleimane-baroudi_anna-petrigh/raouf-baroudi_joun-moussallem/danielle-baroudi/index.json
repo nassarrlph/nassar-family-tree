@@ -1,0 +1,8 @@
+{
+  "id": "danielle-baroudi",
+  "father": { "id": "danielle-baroudi-f", "name": "Danielle Baroudi" },
+  "mother": { "id": "danielle-baroudi-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

@@ -1,0 +1,8 @@
+{
+  "id": "marie-georges-m",
+  "father": { "id": "georges-moussalli", "name": "Georges Moussalli" },
+  "mother": { "id": "marie-cordahi", "name": "Marie Cordahi" },
+  "descendantSide": "mother",
+  "branchColor": "#f0c040",
+  "children": ["gisele-moussalli", "micha-moussalli", "dany-moussalli"]
+}

@@ -1,6 +1,6 @@
 {
   "id": "chukri-linda",
-  "father": { "id": "chukri", "name": "Chukri Baroudi" },
+  "father": { "id": "chukri", "name": "Chukri Nassar" },
   "mother": { "id": "linda-marie", "name": "1- Linda Baroudi\n2- Marie Ayache" },
   "descendantSide": "father",
   "branchColor": "#6b7280",

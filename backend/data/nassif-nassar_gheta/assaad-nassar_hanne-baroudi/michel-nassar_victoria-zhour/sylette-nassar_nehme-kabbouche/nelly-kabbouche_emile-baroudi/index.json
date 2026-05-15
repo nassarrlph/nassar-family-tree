@@ -1,7 +1,7 @@
 {
   "id": "nelly-emile",
   "father": { "id": "emile-baroudi-k", "name": "Emile Baroudi" },
-  "mother": { "id": "nelly-kabbouche-s", "name": "Nelly Kabbouché" },
+  "mother": { "id": "nelly-kabbouche-s", "name": "Nelly Kabbouche" },
   "descendantSide": "mother",
   "branchColor": "#e05c5c",
   "children": []

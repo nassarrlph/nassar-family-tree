@@ -1,0 +1,8 @@
+{
+  "id": "may-attieh",
+  "father": { "id": "may-attieh-f", "name": "May Attieh" },
+  "mother": { "id": "may-attieh-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#7ec8a0",
+  "children": []
+}

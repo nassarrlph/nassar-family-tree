@@ -1,8 +1,8 @@
 {
   "id": "adele-antsun",
-  "father": { "id": "adele", "name": "Adèle Nassar" },
-  "mother": { "id": "antsun", "name": "Antsun Cordahi" },
+  "father": { "id": "antoun", "name": "Antoun Cordahi" },
+  "mother": { "id": "adele", "name": "Adèle Nassar" },
   "descendantSide": "mother",
   "branchColor": "#f0c040",
-  "children": []
+  "children": ["linda-edgar", "michel-renee", "gaby-claude", "marie-georges-m"]
 }

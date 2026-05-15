@@ -1,0 +1,8 @@
+{
+  "id": "talia-maria-khater",
+  "father": { "id": "talia-maria-khater-f", "name": "Talia-Maria Khater" },
+  "mother": { "id": "talia-maria-khater-m", "name": "" },
+  "descendantSide": "father",
+  "branchColor": "#6b7280",
+  "children": []
+}

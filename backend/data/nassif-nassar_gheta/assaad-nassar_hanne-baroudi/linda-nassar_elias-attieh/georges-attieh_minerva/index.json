@@ -1,0 +1,8 @@
+{
+  "id": "georges-minerva",
+  "father": { "id": "georges-attieh", "name": "Georges Attieh" },
+  "mother": { "id": "minerva-attieh", "name": "Minerva" },
+  "descendantSide": "father",
+  "branchColor": "#7ec8a0",
+  "children": ["nicole-attieh", "elie-attieh", "may-attieh"]
+}

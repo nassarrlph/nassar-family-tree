@@ -1,0 +1,16 @@
+{
+  "name": "shajarti",
+  "version": "0.0.1",
+  "private": true,
+  "workspaces": [
+    "packages/app",
+    "packages/api",
+    "packages/infra"
+  ],
+  "scripts": {
+    "dev:app": "npm run dev --workspace=packages/app",
+    "dev:api": "npm run dev --workspace=packages/api",
+    "build:app": "npm run build --workspace=packages/app",
+    "build": "npm run build:app"
+  }
+}

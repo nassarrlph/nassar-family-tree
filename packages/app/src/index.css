@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+select,
+input {
+  outline: none;
+}
+
+select:focus,
+input:focus {
+  border-color: #1d4ed8 !important;
+}
+
+/* Always show pointer cursor over couple boxes and their children */
+svg g[data-box],
+svg g[data-box] *,
+svg g[data-toggle],
+svg g[data-toggle] * {
+  cursor: pointer !important;
+}
+
+@media print {
+  /* Hide everything except the tree canvas */
+  body > div > div:first-child {
+    display: none !important;
+  } /* toolbar */
+  body > div > div:last-child > div:last-child {
+    display: none !important;
+  } /* inspector/hint panel */
+
+  body,
+  html {
+    height: auto;
+    overflow: visible;
+  }
+
+  svg {
+    width: 100vw !important;
+    height: auto !important;
+  }
+}

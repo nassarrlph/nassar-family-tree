@@ -21,6 +21,9 @@ export default function App() {
         <span style={{ fontWeight: "bold", fontSize: 15, color: "#222" }}>Family Tree</span>
         <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
           {error && <span style={{ color: "#dc2626", fontSize: 12 }}>{error}</span>}
+          <button onClick={() => window.print()} style={toolBtn} title="Export as PDF">
+            🖨 Export PDF
+          </button>
           <button onClick={loadTree} style={toolBtn} title="Reload from server">
             ↺ Reload
           </button>

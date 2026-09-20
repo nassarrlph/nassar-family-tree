@@ -5,7 +5,7 @@
   "workspaces": [
     "packages/app",
     "packages/api",
-    "packages/infra"
+    "packages/ShajartiCDK"
   ],
   "scripts": {
     "dev:app": "npm run dev --workspace=packages/app",
